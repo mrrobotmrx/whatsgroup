@@ -1,0 +1,27 @@
+{
+  "name": "whatsgrup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "whatsgrup": "server.js"
+  },
+  "dependencies": {
+    "azure-storage": "^2.1.0",
+    "debug": "^3.2.5",
+    "express": "^4.16.3",
+    "guid": "0.0.12",
+    "http": "0.0.0",
+    "jsonwebtoken": "^8.3.0",
+    "md5": "^2.2.1",
+    "mongoose": "^5.3.1",
+    "sendgrid": "^2.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "nodemon ./bin/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
